@@ -1,11 +1,107 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="pl">
 
-<head> 
-
+<head>  
+				<meta charset="utf-8" />
+				<title>Wypożyczalnia Samochodowa</title>
+				<meta name="description" content="Projekt zaliczeniowy, pracownia programowania 5"/>
+				
+				<style>
+				
+				
+	input[type="text"]
+	{
+		    width: 140px; 
+			
+	}
+	input[type="password"]
+	{
+		    width: 140px; 
+			
+	}
+	#container
+	{
+		background-color: green;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 15px;   <!-- odstęp wokół elementu -->
+	}
+	#nav
+	{
+		float: left;
+		background-color: #99CC33;
+		width: 200px;
+		min-height: 640px;   <!-- min wysokość  -->
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 590px;
+		background-color: #336699;
+		min-height: 600px;
+	}
+	#customer
+	{
+		float: left;
+		width:150px ;
+		min-height: 620px;
+		padding: 10px;
+		background-color: #FFCC33;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	</style>
+				
 </head>
 
 <body>
-<h1>cześć! witam na stracie, gratuluje rozpoczęcia :)<h1>
+
+
+
+<div id="container">
+	<div id="logo">
+		<h2 align="center">Samochód dla Ciebie!</h2>
+	
+	</div>
+	<div id="nav"> <p align="center">Lista Samochodów</p>
+					<ul><h4> Wypożycz</h4>
+						<li>Mercedes</li>
+						<li>Porhe</li>
+						<li>Mustang</li>
+					</ul>
+	
+	
+	</div> 
+	<div id="content"></div>
+	<div id="customer">
+		<br/>
+		<align="center"> Zaloguj się:</align> <br/><br/>
+		
+		login:  <input type="text"  name="login" /><br/>
+		hasło: <input type="password"  name="hasło" /><br/>
+	
+	
+	</div>
+	<div id="footer" align="center">  &copy Krzysztof Michalski  </div>	
+	
+	
+	
+</div>
 
 </body>
 
